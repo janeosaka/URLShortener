@@ -1,10 +1,10 @@
 {
-  "name": "URLshortenerService",
+  "name": "URLShortener",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index",
+    "start": "node index",
     "dev": "nodemon index"
   },
   "keywords": [],

@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.amazon.com/Bandai-Hobby-Gundam-Second-Revise/dp/B002NE792S?pf_rd_p=5cc0ab18-ad5f-41cb-89ad-d43149f4e286&pd_rd_wg=ly25k&pf_rd_r=DBNBDT1DVYPEYE6CBDWV&ref_=pd_gw_wish&pd_rd_w=81sRE&pd_rd_r=9edd6202-b44c-4154-8295-31bcbf772f79"
+}

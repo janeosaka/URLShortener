@@ -1,4 +1,4 @@
-const express = require('express') // basic express server
+const express = require('express');
 const connectDB = require('./config/db');
 
 const app = express();
@@ -6,7 +6,13 @@ const app = express();
 // Connect to database
 connectDB();
 
-app.use(express.json({ extended: false })); // allows us to accept json data to API
+app.use(express.json({ extended: false })); // Allows us to accept data into our API
+
+// Defining routes
+app.use('/', require('./routes/index'));
+app.use('/api/url', require('./routes/url'));
+
 const PORT = 5000;
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
