@@ -1,6 +1,0 @@
-POST http://localhost:5000/api/url/shorten
-Content-Type: : application/json
-
-{
-    "longUrl": "https://www.amazon.com/gp/product/B07BF76ZG1?pf_rd_p=183f5289-9dc0-416f-942e-e8f213ef368b&pf_rd_r=FWRH3CARR987V2CHTVZP"
-}
